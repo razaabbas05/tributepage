@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Bitter', serif;
+  font-size: 250%;
+}
+
+h3 {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 150;
+    background-color: #330101;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+
+body {
+  background-color: rgb(133, 11, 11);
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+    color: antiquewhite;
+}
+
+.image-container {
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(133, 11, 11);
+    
+    
+}
+
+.ronaldo-image {
+    object-fit: contain;
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    
+
+}
+
+.caption {
+    padding-top: 5px;
+}
+
+.life {
+    text-align: left;
+    padding: 30px 70px;
+    margin: 10px ;
+    max-width: 600%;
+    background-color: #330101;
+    border-radius: 10px;
+
+}
+
+.life-header {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Bitter', serif;
+    padding: 30px;
+    font-weight: bold;
+}
+
+li {
+    margin: 20px;
+}
+
+.quote {
+    margin: 30px 30px 5px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    
+
+}
+
+.quote-author {
+    text-indent: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+
+}
+.bold {
+    font-weight: bold;
+}
+
+
+
+  @media (max-width: 768px) {
+    h1 {
+        font-size: 120%;
+    }
+
+    h3{
+        font-size: 70%;
+    }
+    .quote-author{
+        font-size: 70%;
+
+    }
+    .quote{
+        font-size: 70%;
+    }
+    .life-header{
+        font-size: 70%;
+        padding: 10px;
+    }
+    .caption{
+        font-size: 45%;
+    }
+    li{
+        margin: 10px;
+        font-size: 60%;
+    }
+    .life{
+        padding: 6px 14px;
+        margin: 5px;
+        
+    }
+    .points{
+        font-size: 60%;
+    }
+    
+
+  }
